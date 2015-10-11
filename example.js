@@ -11,7 +11,6 @@ var Router = TVJS.Router.extend({
   },
 
   start: function(query, page) {
-    console.log("jo");
     var startView = new StartView();
     startView.show();
   },
@@ -22,8 +21,6 @@ var Router = TVJS.Router.extend({
   }
 
 });
-
-console.log(Router);
 
 
 // create a view with events
@@ -74,7 +71,6 @@ var SecondView = TVJS.View.extend({
 var myRouter = new Router();
 
 App.onLaunch = function(options) {
-  console.log("test");
   myRouter.navigate("start");
 }
 
