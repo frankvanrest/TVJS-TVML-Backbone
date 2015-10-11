@@ -1,0 +1,36 @@
+{
+  "name": "tvjs-tvml-backbone",
+  "version": "0.0.1",
+  "description": "Backbone bindings to Apple's TVJS and TVML",
+  "main": "index.js",
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "jquery": "^2.1.4",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jsdom": "^6.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankvanrest/TVJS-TVML-Backbone.git"
+  },
+  "keywords": [
+    "TVJS",
+    "tvOS",
+    "Apple",
+    "TV",
+    "BackboneJS",
+    "Backbone",
+    "Javascript"
+  ],
+  "author": "Frank van Rest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankvanrest/TVJS-TVML-Backbone/issues"
+  },
+  "homepage": "https://github.com/frankvanrest/TVJS-TVML-Backbone#readme"
+}
