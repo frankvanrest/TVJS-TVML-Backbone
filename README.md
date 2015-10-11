@@ -1,7 +1,7 @@
 # TVJS-TVML-Backbone
 Backbone bindings to Apple's [TVJS and TVML](https://developer.apple.com/library/prerelease/tvos/navigation/)
 
-## This is a proof of concept
+## This is still just a proof of concept
 
 
 # Concept
@@ -11,6 +11,11 @@ The Router is used for navigation, so the concept of URL's can be used to naviga
 Views have a `show` and a `replace` call, corresponding to the `navigationDocument.pushDocument` and `navigationDocument.replaceDocument`.
 
 #Example 
+
+![Start View](screen1.png)
+
+![Second View](screen2.png)
+
 See `example.js` or below:
 
 ```
